@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hpmlt.moonlight.SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_weight="3"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="8dp"
+        android:background ="#f5fafd"
+
+        android:orientation="horizontal"
+        android:id="@+id/color1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="102dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:id="@+id/joyful"
+                    android:background="@drawable/joyful"
+
+
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+
+                    android:padding="0dp"
+
+                    />
+
+                <CheckBox
+                    android:id = "@+id/ckb_1"
+                    android:layout_margin="4dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ck_0"
+                    android:focusable="false"
+                    android:button="@null"
+                    />
+
+            </RelativeLayout>
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/j1_1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="JOYFUL"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="12sp"
+                 />
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+
+                android:layout_marginRight="10dp"
+
+                android:id="@+id/j1_2"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="활달한 기분"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="11sp"
+                 />
+        </LinearLayout>
+        ////////////////////////
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="102dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:id="@+id/meditation"
+                    android:background="@drawable/meditation"
+
+
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+
+                    android:padding="0dp"
+
+                    />
+
+                <CheckBox
+                    android:id = "@+id/ckb_2"
+                    android:layout_margin="4dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ck_0"
+                    android:focusable="false"
+                    android:button="@null"
+                    />
+
+            </RelativeLayout>
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/j2_1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="MEDITATION"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+
+                android:layout_marginRight="10dp"
+
+                android:id="@+id/j2_2"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="차분한 느낌"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="11sp"
+                />
+        </LinearLayout>
+        ///////////////////////////////////
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="102dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:id="@+id/stability"
+                    android:background="@drawable/stability"
+
+
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+
+                    android:padding="0dp"
+
+                    />
+
+                <CheckBox
+                    android:id = "@+id/ckb_3"
+                    android:layout_margin="4dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ck_0"
+                    android:focusable="false"
+                    android:button="@null"
+                    />
+
+            </RelativeLayout>
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/j3_1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="STABILITY"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+
+                android:layout_marginRight="10dp"
+
+                android:id="@+id/j3_2"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="안정적 수면"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="11sp"
+                />
+        </LinearLayout>
+        /////////////////////////////////////
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_weight="3"
+        android:paddingTop="8dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:background ="#f5fafd"
+
+        android:layout_below="@+id/color1"
+
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:id="@+id/color2"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="102dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:id="@+id/vitality"
+                    android:background="@drawable/vitality"
+
+
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+
+                    android:padding="0dp"
+
+                    />
+
+                <CheckBox
+                    android:id = "@+id/ckb_4"
+                    android:layout_margin="4dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ck_0"
+                    android:focusable="false"
+                    android:button="@null"
+                    />
+
+            </RelativeLayout>
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/j4_1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="VITALITY"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+
+                android:layout_marginRight="10dp"
+
+                android:id="@+id/j4_2"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="생기있는 시간"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="11sp"
+                />
+        </LinearLayout>
+        //////////////////////////
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="102dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:id="@+id/inspiration"
+                    android:background="@drawable/inspiration"
+
+
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+
+                    android:padding="0dp"
+
+                    />
+
+                <CheckBox
+                    android:id = "@+id/ckb_5"
+                    android:layout_margin="4dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ck_0"
+                    android:focusable="false"
+                    android:button="@null"
+                    />
+
+            </RelativeLayout>
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/j5_1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="INSPIRATION"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+
+                android:layout_marginRight="10dp"
+
+                android:id="@+id/j5_2"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="보랏빛 꿈"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="11sp"
+                />
+        </LinearLayout>
+        //////////////////////////////
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="102dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:id="@+id/creativity"
+                    android:background="@drawable/creativity"
+
+
+                    android:scaleType="fitCenter"
+                    android:clickable="true"
+
+                    android:padding="0dp"
+
+                    />
+
+                <CheckBox
+                    android:id = "@+id/ckb_6"
+                    android:layout_margin="4dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ck_0"
+                    android:focusable="false"
+                    android:button="@null"
+                    />
+
+            </RelativeLayout>
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/j6_1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="CREATIVITY"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="5dp"
+
+                android:layout_marginRight="10dp"
+
+                android:id="@+id/j6_2"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="창의적 생각"
+                android:textColor="#000000"
+                android:background ="#ffffff"
+                android:textSize="11sp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="300dp"
+        android:gravity = "bottom"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_marginTop="360dp">
+
+    </ListView>
+
+
+
+
+</RelativeLayout>
