@@ -1,0 +1,26 @@
+////////////////////////////////////////////////////////////////////
+/////// 2015312954 Jeong Dongeon
+/////// 2015313059 Jeong Minseop
+////////////////////////////////////////////////////////////////////
+1. File information
+	- README : Readme file for testing instructions
+	- Makefile : makefile
+	- example.c :example mini C code for testing
+	- minicp.l : flex input file
+	- minicp.y : bison input file
+	- minicp.h : header file for minicp.y's function
+	- print.c : C file for print AST and Symbol Table
+	- print.h : header file for print.c's function
+	- AST.h : Given header file
+	- cfg.c : C file for print cfg
+	- cfg.h : header file for cfg.c
+	- live.c : C file for print liveness
+	- live.h : header file for live.c
+
+2. how to run
+	2.1 extract tar.gz file
+	2.2 type 'make all'. 
+	2.3 ./cfg < 'source_file_name'
+	2.4 check 'CFG.out' & 'Liveness.out'
+
+
