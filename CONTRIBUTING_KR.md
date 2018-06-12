@@ -76,5 +76,5 @@ pull request를 제출하는 단계적 방법:
 10. 다 끝!
 
 
-## License
+## 라이센스
 billboard.js에 기여하는 것은 당신의 기여가 [MIT](https://opensource.org/licenses/MIT) 라이선스에 의한 허가를 받는 것에 동의하는 것입니다.
