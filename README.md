@@ -1,2 +1,2 @@
 # Previous Repositories
-simple project at university
+Simple/Small project @SKKU
