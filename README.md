@@ -1,2 +1,2 @@
-# Previous Repositories
-Simple/Small project @SKKU
+# Previous programming assignments
+- @SKKU
